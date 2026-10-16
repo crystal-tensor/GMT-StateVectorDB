@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-SVDB（StateVector Database）是一个基于量子计算原理的向量数据库系统，专为高效处理和检索多模态数据而设计。该系统利用量子哈希微小指针技术构建索引，并通过量子Grover Merkle Tree算法实现高效查询。
+GMT-StateVectorDB（GMT StateVector Database）是一个基于量子计算原理的向量数据库系统，专为高效处理和检索多模态数据而设计。该系统利用量子哈希微小指针技术构建索引，并通过量子Grover Merkle Tree算法实现高效查询。
 
 ## 核心特性
 
@@ -17,7 +17,7 @@ SVDB（StateVector Database）是一个基于量子计算原理的向量数据�
 
 ## 系统架构
 
-SVDB由以下八个核心模块组成：
+GMT-StateVectorDB由以下八个核心模块组成：
 
 1. **UQHash**：通用量子哈希适配层，为不同量子计算平台提供统一接口
 2. **PTHash**：量子哈希函数模块，负责生成确定性量子哈希值
@@ -63,7 +63,7 @@ SVDB由以下八个核心模块组成：
 ## 目录结构
 
 ```
-SVDB/
+GMT-StateVectorDB/
 ├── README.md                 # 项目说明文档
 ├── __init__.py               # 包初始化文件
 ├── config.py                 # 配置文件
@@ -118,10 +118,10 @@ SVDB/
 
 ```bash
 # 从PyPI安装
-pip install svdb
+pip install GMT-StateVectorDB
 
 # 或从GitHub源码安装
-pip install git+https://github.com/crystal-tensor/SVDB.git
+pip install git+https://github.com/crystal-tensor/GMT-StateVectorDB.git
 ```
 
 ### 安装依赖
@@ -138,10 +138,10 @@ pip install -r requirements.txt
 ### 基本使用
 
 ```python
-from SVDB import SVDB
+from GMT-StateVectorDB import GMT-StateVectorDB
 
 # 初始化数据库
-db = SVDB(db_path="path/to/database")
+db = GMT-StateVectorDB(db_path="path/to/database")
 
 # 存储文档
 doc_id = db.store_document("path/to/document.pdf")
