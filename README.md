@@ -1,8 +1,8 @@
-# SVDB - 量子向量数据库
+# GMT-StateVectorDB - 量子向量数据库
 
 ## 项目概述
 
-SVDB（StateVector Database）是一个基于量子计算原理的向量数据库系统，专为高效处理和检索多模态数据而设计。该系统利用量子哈希微小指针技术构建索引，并通过量子Grover算法实现高效查询。
+SVDB（StateVector Database）是一个基于量子计算原理的向量数据库系统，专为高效处理和检索多模态数据而设计。该系统利用量子哈希微小指针技术构建索引，并通过量子Grover Merkle Tree算法实现高效查询。
 
 ## 核心特性
 
